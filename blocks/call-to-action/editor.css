@@ -1,0 +1,21 @@
+.archdome-cta-editor {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 2rem;
+  background: #4b2b63;
+  color: #fff;
+}
+
+.archdome-cta-editor.is-light {
+  background: #f3f1ee;
+  color: #262329;
+}
+
+.archdome-cta-editor h2 { color: inherit; }
+.archdome-cta-editor.has-image { color: #fff; }
+.archdome-cta-editor__background,
+.archdome-cta-editor__overlay { position: absolute; inset: 0; width: 100%; height: 100%; }
+.archdome-cta-editor__background { z-index: -2; object-fit: cover; }
+.archdome-cta-editor__overlay { z-index: -1; background: linear-gradient(90deg, rgb(25 17 31 / 78%), rgb(25 17 31 / 50%)); }
+[dir="rtl"] .archdome-cta-editor__overlay { background: linear-gradient(270deg, rgb(25 17 31 / 78%), rgb(25 17 31 / 50%)); }

@@ -1,0 +1,5 @@
+.archdome-inquiry { padding-block: clamp(3rem, 8vw, 6rem); background: #4b2b63; color: #fff; }
+.archdome-inquiry__inner { display: grid; gap: 2rem; align-items: center; }
+.archdome-inquiry h2 { color: inherit; }
+.archdome-inquiry .button { border-color: #fff; background: #fff; color: #4b2b63; }
+@media (min-width: 48rem) { .archdome-inquiry__inner { grid-template-columns: minmax(0, 1fr) auto; } }

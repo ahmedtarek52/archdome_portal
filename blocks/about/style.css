@@ -1,0 +1,8 @@
+.wp-block-archdome-about.archdome-about { padding-block: clamp(3rem, 8vw, 7rem); }
+.archdome-about__inner { display: grid; gap: clamp(2rem, 6vw, 6rem); align-items: center; }
+.archdome-about__copy { max-inline-size: 42rem; }
+.archdome-about__copy h2 { font-size: clamp(2rem, 1.4rem + 2.5vw, 4rem); }
+.archdome-about__media { position: relative; margin: 0; }
+.archdome-about__media::after { position: absolute; z-index: -1; inset-block: 1rem -1rem; inset-inline: 1rem -1rem; border: 1px solid #6e4c82; content: ""; }
+.archdome-about__media img { inline-size: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+@media (min-width: 48rem) { .archdome-about__inner { grid-template-columns: minmax(0, 1fr) minmax(18rem, .8fr); } }

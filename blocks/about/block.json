@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "archdome/about",
+  "version": "0.1.0",
+  "title": "About Archdome",
+  "category": "archdome",
+  "icon": "building",
+  "description": "An editorial introduction with optional supporting image.",
+  "textdomain": "archdome-portal",
+  "attributes": {
+    "eyebrow": { "type": "string", "default": "" },
+    "heading": { "type": "string", "default": "" },
+    "text": { "type": "string", "default": "" },
+    "mediaId": { "type": "integer", "default": 0 },
+    "linkLabel": { "type": "string", "default": "" },
+    "linkUrl": { "type": "string", "default": "" }
+  },
+  "supports": { "align": ["wide", "full"], "anchor": true, "html": false },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css",
+  "render": "file:./render.php"
+}

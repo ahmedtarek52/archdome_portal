@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "archdome/property-search",
+  "version": "0.1.0",
+  "title": "Property Search",
+  "category": "archdome",
+  "icon": "filter",
+  "description": "A progressively enhanced property search form using URL parameters.",
+  "textdomain": "archdome-portal",
+  "attributes": { "heading": { "type": "string", "default": "" } },
+  "supports": { "align": ["wide", "full"], "anchor": true, "html": false },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "archdome-filters",
+  "render": "file:./render.php"
+}

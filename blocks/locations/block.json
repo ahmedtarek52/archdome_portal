@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "archdome/locations",
+  "version": "0.1.0",
+  "title": "Locations",
+  "category": "archdome",
+  "icon": "location-alt",
+  "description": "A server-rendered list of real-estate locations.",
+  "textdomain": "archdome-portal",
+  "attributes": { "heading": { "type": "string", "default": "" }, "limit": { "type": "integer", "default": 6 } },
+  "supports": { "align": ["wide", "full"], "anchor": true, "html": false },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css",
+  "render": "file:./render.php"
+}

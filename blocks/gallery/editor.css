@@ -1,0 +1,27 @@
+.archdome-gallery-editor { padding: 1.5rem; border: 1px dashed #6e4c82; }
+.archdome-gallery-editor--center-title > h2 { text-align: center; }
+.archdome-gallery-editor__tabs { display: flex; gap: .5rem; margin-block-end: 1.5rem; border-block-end: 1px solid #ddd; }
+.archdome-gallery-editor__tab { border-radius: 0; }
+.archdome-gallery-editor__tab.is-active { box-shadow: inset 0 -3px #6e4c82; color: #4b2b63; }
+.archdome-gallery-editor__rows { display: grid; gap: 22px; }
+.archdome-gallery-editor__row { display: grid; gap: 22px; min-width: 0; }
+.archdome-gallery-editor__row--1 { grid-template-columns: 1.35fr .85fr 1.1fr; }
+.archdome-gallery-editor__row--2 { grid-template-columns: .9fr 1.35fr 1.05fr; }
+.archdome-gallery-editor__card { display: flex; flex-direction: column; align-items: flex-start; gap: .6rem; min-width: 0; padding: .75rem; border: 1px solid #ddd; border-radius: 22px; }
+.archdome-gallery-editor__card img,
+.archdome-gallery-editor__video,
+.archdome-gallery-editor__empty { display: grid; place-items: center; width: 100%; height: 150px; border-radius: 14px; object-fit: cover; background: #eee; }
+.archdome-gallery-editor__video { background: #222; color: #fff; }
+.archdome-gallery-editor__card-label { font-weight: 600; }
+.archdome-gallery-editor__columns { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.archdome-gallery-editor__column { min-width: 0; padding: .75rem; border: 1px solid #ddd; }
+.archdome-gallery-editor__column h3 { font-size: 1rem; }
+.archdome-gallery-editor__images { list-style: none; padding: 0; margin: 1rem 0; }
+.archdome-gallery-editor__images li { margin-bottom: .75rem; }
+.archdome-gallery-editor__images img { display: block; width: 100%; height: 100px; object-fit: cover; }
+.archdome-gallery-editor__actions { display: flex; flex-wrap: wrap; }
+@media (max-width: 600px) { .archdome-gallery-editor__columns { grid-template-columns: 1fr; } }
+@media (max-width: 782px) {
+  .archdome-gallery-editor__row--1,
+  .archdome-gallery-editor__row--2 { grid-template-columns: 1fr; }
+}

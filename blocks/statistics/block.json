@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "archdome/statistics",
+  "version": "0.4.0",
+  "title": "Statistics",
+  "category": "archdome",
+  "icon": "chart-bar",
+  "description": "A branded section for key facts and figures.",
+  "textdomain": "archdome-portal",
+  "attributes": {
+    "align": { "type": "string", "default": "full" },
+    "heading": { "type": "string", "default": "" },
+    "headingLevel": { "type": "integer", "default": 2 },
+    "eyebrow": { "type": "string", "default": "" },
+    "text": { "type": "string", "default": "" },
+    "items": { "type": "array", "default": [], "items": { "type": "object" } }
+  },
+  "supports": { "align": ["full"], "anchor": true, "html": false },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css",
+  "viewScript": "file:./frontend.js",
+  "render": "file:./render.php"
+}

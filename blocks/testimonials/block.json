@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "archdome/testimonials",
+  "version": "0.1.0",
+  "title": "Testimonials",
+  "category": "archdome",
+  "icon": "format-quote",
+  "description": "A static, accessible collection of approved quotations.",
+  "textdomain": "archdome-portal",
+  "attributes": { "heading": { "type": "string", "default": "" }, "items": { "type": "array", "default": [], "items": { "type": "object" } } },
+  "supports": { "align": ["wide", "full"], "anchor": true, "html": false },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css",
+  "render": "file:./render.php"
+}

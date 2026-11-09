@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "archdome/hero",
+  "version": "0.1.0",
+  "title": "Hero",
+  "category": "archdome",
+  "icon": "cover-image",
+  "description": "A prominent page introduction with optional image and actions.",
+  "textdomain": "archdome-portal",
+  "attributes": {
+    "eyebrow": { "type": "string", "default": "" },
+    "heading": { "type": "string", "default": "" },
+    "text": { "type": "string", "default": "" },
+    "mediaId": { "type": "integer", "default": 0 },
+    "headingLevel": { "type": "integer", "default": 1 },
+    "primaryLabel": { "type": "string", "default": "" },
+    "primaryUrl": { "type": "string", "default": "" },
+    "secondaryLabel": { "type": "string", "default": "" },
+    "secondaryUrl": { "type": "string", "default": "" }
+  },
+  "supports": {
+    "align": ["wide", "full"],
+    "anchor": true,
+    "html": false,
+    "spacing": { "margin": ["top", "bottom"] }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css",
+  "render": "file:./render.php"
+}

@@ -1,0 +1,6 @@
+.archdome-map-location { padding-block: clamp(3rem, 8vw, 7rem); background: #cccccc; }
+.archdome-map-location__inner { display: grid; gap: 2rem; }
+.archdome-map-location__coordinates { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; margin: 0; background: rgb(75 43 99 / 18%); }
+.archdome-map-location__coordinates div { padding: 1rem; background: #fff; }
+.archdome-map-location__coordinates dd { margin: .25rem 0 0; font-weight: 600; }
+@media (min-width: 48rem) { .archdome-map-location__inner { grid-template-columns: minmax(0, 1fr) minmax(18rem, .6fr); align-items: center; } }

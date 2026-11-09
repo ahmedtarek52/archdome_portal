@@ -1,0 +1,3 @@
+.archdome-amenities { padding-block: clamp(3rem, 8vw, 6rem); }
+.archdome-amenities__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 1px; margin: 2rem 0 0; padding: 1px; background: rgb(75 43 99 / 18%); list-style: none; }
+.archdome-amenities__list li { padding: 1.25rem; background: #fff; }

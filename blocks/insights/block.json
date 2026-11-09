@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "archdome/insights",
+  "version": "0.1.0",
+  "title": "Insights",
+  "category": "archdome",
+  "icon": "admin-post",
+  "description": "A server-rendered selection of recent insights.",
+  "textdomain": "archdome-portal",
+  "attributes": {
+    "heading": { "type": "string", "default": "" },
+    "limit": { "type": "integer", "default": 3 },
+    "categoryId": { "type": "integer", "default": 0 },
+    "showExcerpt": { "type": "boolean", "default": true }
+  },
+  "supports": { "align": ["wide", "full"], "anchor": true, "html": false },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css",
+  "render": "file:./render.php"
+}

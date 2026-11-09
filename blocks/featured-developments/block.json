@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "archdome/featured-developments",
+  "version": "0.1.0",
+  "title": "Featured Developments",
+  "category": "archdome",
+  "icon": "building",
+  "description": "Featured developments with an automatic latest-content fallback.",
+  "textdomain": "archdome-portal",
+  "attributes": {
+    "heading": { "type": "string", "default": "" },
+    "limit": { "type": "integer", "default": 3 },
+    "linkLabel": { "type": "string", "default": "" },
+    "linkUrl": { "type": "string", "default": "" }
+  },
+  "supports": { "align": ["wide", "full"], "anchor": true, "html": false },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "archdome-cards",
+  "render": "file:./render.php"
+}

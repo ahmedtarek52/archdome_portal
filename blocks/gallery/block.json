@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "archdome/gallery",
+  "version": "0.1.0",
+  "title": "Archdome Gallery",
+  "category": "archdome",
+  "icon": "format-gallery",
+  "description": "A responsive accessible image gallery.",
+  "textdomain": "archdome-portal",
+  "attributes": {
+    "heading": { "type": "string", "default": "" },
+    "layout": { "type": "string", "default": "default" },
+    "centerTitle": { "type": "boolean", "default": false },
+    "editorialMediaIds": { "type": "array", "default": [], "items": { "type": "integer" } },
+    "mediaIds": { "type": "array", "default": [], "items": { "type": "integer" } },
+    "customColumns": { "type": "boolean", "default": false },
+    "firstColumnIds": { "type": "array", "default": [], "items": { "type": "integer" } },
+    "middleColumnIds": { "type": "array", "default": [], "items": { "type": "integer" } },
+    "lastColumnIds": { "type": "array", "default": [], "items": { "type": "integer" } }
+  },
+  "supports": { "align": ["wide", "full"], "anchor": true, "html": false },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}

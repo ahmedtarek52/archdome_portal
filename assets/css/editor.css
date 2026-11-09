@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.editor-styles-wrapper {
+  background: #f3f1ee;
+  color: #262329;
+  font-family: Arial, sans-serif;
+  line-height: 1.65;
+}
+
+[lang^="ar"] .editor-styles-wrapper,
+.rtl .editor-styles-wrapper {
+  font-family: "Noto Sans Arabic", Arial, sans-serif;
+  line-height: 1.85;
+}
+
+[lang^="ar"] .editor-styles-wrapper :where(h1, h2, h3, h4, h5, h6),
+.rtl .editor-styles-wrapper :where(h1, h2, h3, h4, h5, h6) {
+  font-family: "Noto Naskh Arabic", Georgia, serif;
+}
+
+.editor-styles-wrapper :where(h1, h2, h3, h4, h5, h6) {
+  color: #352044;
+  font-family: inherit;
+  line-height: 1.2;
+}
+

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "archdome/development-grid",
+  "version": "0.1.0",
+  "title": "Development Grid",
+  "category": "archdome",
+  "icon": "grid-view",
+  "description": "A bounded grid of developments filtered by taxonomy IDs.",
+  "textdomain": "archdome-portal",
+  "attributes": {
+    "heading": { "type": "string", "default": "" },
+    "limit": { "type": "integer", "default": 6 },
+    "locationId": { "type": "integer", "default": 0 },
+    "typeId": { "type": "integer", "default": 0 },
+    "statusId": { "type": "integer", "default": 0 }
+  },
+  "supports": { "align": ["wide", "full"], "anchor": true, "html": false },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "archdome-cards",
+  "render": "file:./render.php"
+}

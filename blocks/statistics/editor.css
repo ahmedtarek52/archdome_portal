@@ -1,0 +1,49 @@
+.archdome-statistics-editor.archdome-statistics {
+  inline-size: 100%;
+  max-inline-size: 100%;
+  margin-inline: 0;
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.archdome-statistics-editor .archdome-statistics__inner {
+  max-inline-size: 100%;
+  padding: 0;
+}
+
+.archdome-statistics-editor__content { min-inline-size: 0; }
+
+.archdome-statistics-editor .archdome-statistics__item {
+  gap: 0.5rem;
+  min-block-size: 0;
+  padding: 1.25rem;
+  background: var(--color-background, #f3f1ee);
+}
+
+.archdome-statistics-editor .components-base-control { margin: 0; }
+
+.archdome-statistics-editor .components-base-control__label {
+  color: var(--color-text-primary, #262329);
+}
+
+.archdome-statistics-editor .components-text-control__input {
+  max-inline-size: 100%;
+  background: var(--color-surface, #fff);
+  color: var(--color-text-primary, #262329);
+}
+
+.archdome-statistics-editor__empty {
+  padding: 1.5rem;
+  background: var(--color-background, #f3f1ee);
+  color: var(--color-text-primary, #262329);
+}
+
+.archdome-statistics-editor .components-button.is-link.is-destructive {
+  align-self: flex-start;
+  color: var(--color-brand-primary, #4b2b63);
+  text-decoration: underline;
+}
+
+.archdome-statistics-editor__add.components-button {
+  min-block-size: 44px;
+  margin-block-start: 1.5rem;
+}

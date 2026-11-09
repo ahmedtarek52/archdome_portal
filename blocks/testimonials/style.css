@@ -1,0 +1,6 @@
+.archdome-testimonials { padding-block: clamp(3rem, 8vw, 7rem); background: #fff; }
+.archdome-testimonials__grid { display: grid; gap: 1.5rem; margin-block-start: 2rem; }
+.archdome-testimonials figure { margin: 0; padding: 1.5rem; border-inline-start: 2px solid #6e4c82; background: #f3f1ee; }
+.archdome-testimonials blockquote { margin: 0; font-size: 1.15rem; }
+.archdome-testimonials figcaption span { display: block; color: #727076; font-size: .875rem; }
+@media (min-width: 48rem) { .archdome-testimonials__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

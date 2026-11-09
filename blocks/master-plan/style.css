@@ -1,0 +1,4 @@
+.archdome-master-plan { padding-block: clamp(3rem, 8vw, 7rem); }
+.archdome-master-plan figure { margin: 2rem 0 0; padding: clamp(1rem, 4vw, 3rem); background: #fff; }
+.archdome-master-plan img { inline-size: 100%; max-block-size: 75rem; object-fit: contain; }
+.archdome-master-plan figcaption { margin-block-start: .75rem; color: #727076; }

@@ -1,0 +1,993 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Archdome Portal 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-21T15:51:15.832Z\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: archdome-portal\n"
+
+#: template-parts/cards/property.php:30
+msgid "%d bedrooms"
+msgstr ""
+
+#: template-parts/cards/property.php:31
+msgid "%s bathrooms"
+msgstr ""
+
+#: inc/taxonomies/register.php:61
+msgid "%s link"
+msgstr ""
+
+#: footer.php:37
+msgid "© %1$s %2$s. All rights reserved."
+msgstr ""
+
+#: blocks/master-plan/index.js:10
+msgid "A custom plan is selected."
+msgstr ""
+
+#: inc/taxonomies/register.php:66
+msgid "A link to a %s."
+msgstr ""
+
+#: blocks/about/index.js:17
+msgid "About heading"
+msgstr ""
+
+#: blocks/about/index.js:11
+msgid "About settings"
+msgstr ""
+
+#: blocks/about/index.js:18
+msgid "About text"
+msgstr ""
+
+#: single-property.php:43
+msgid "About this property"
+msgstr ""
+
+#: blocks/call-to-action/index.js:11
+msgid "Action settings"
+msgstr ""
+
+#: blocks/statistics/index.js:102
+msgid "Add a statistic to begin. Each statistic needs a value and a label."
+msgstr ""
+
+#: inc/post-types/register.php:23
+msgid "Add development"
+msgstr ""
+
+#: inc/taxonomies/register.php:44
+msgid "Add new %s"
+msgstr ""
+
+#: inc/post-types/register.php:24
+msgid "Add new development"
+msgstr ""
+
+#: inc/post-types/register.php:70
+msgid "Add new property"
+msgstr ""
+
+#: inc/post-types/register.php:69
+msgid "Add property"
+msgstr ""
+
+#: blocks/statistics/index.js:107
+msgid "Add statistic"
+msgstr ""
+
+#: blocks/testimonials/index.js:19
+msgid "Add testimonial"
+msgstr ""
+
+#: blocks/map-location/index.js:11
+msgid "Address or directions"
+msgstr ""
+
+#: inc/taxonomies/register.php:29
+msgid "All %s"
+msgstr ""
+
+#: inc/post-types/register.php:28
+msgid "All developments"
+msgstr ""
+
+#: inc/post-types/register.php:74
+msgid "All properties"
+msgstr ""
+
+#: inc/taxonomies/register.php:95 single-development.php:48 single-property.php:45
+msgid "Amenities"
+msgstr ""
+
+#: blocks/amenities/index.js:9
+msgid "Amenities settings"
+msgstr ""
+
+#: inc/taxonomies/register.php:94
+msgid "Amenity"
+msgstr ""
+
+#: blocks/amenities/index.js:11
+msgid "Amenity term IDs"
+msgstr ""
+
+#: blocks/property-search/render.php:25 template-parts/global/archive-filters.php:32
+msgid "Any"
+msgstr ""
+
+#: template-parts/global/archive-filters.php:46
+msgid "Apply filters"
+msgstr ""
+
+#: inc/blocks/register.php:65
+msgid "Archdome"
+msgstr ""
+
+#: inc/admin/settings.php:36 inc/admin/settings.php:37 inc/admin/settings.php:68
+msgid "Archdome settings"
+msgstr ""
+
+#: blocks/featured-developments/index.js:14 blocks/featured-properties/index.js:13
+msgid "Archive link label"
+msgstr ""
+
+#: blocks/featured-developments/index.js:15 blocks/featured-properties/index.js:14
+msgid "Archive link URL"
+msgstr ""
+
+#: blocks/statistics/index.js:82 inc/admin/meta-boxes.php:138 single-property.php:39
+msgid "Area"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:141
+msgid "Area unit"
+msgstr ""
+
+#: single-development.php:41
+msgid "Available properties"
+msgstr ""
+
+#: inc/taxonomies/register.php:56
+msgid "Back to %s"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:137 single-property.php:38
+msgid "Bathrooms"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:136 single-property.php:37
+msgid "Bedrooms"
+msgstr ""
+
+#: blocks/call-to-action/index.js:13
+msgid "Brand"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:83
+msgid "Brochure attachment ID"
+msgstr ""
+
+#: taxonomy.php:6
+msgid "Browse"
+msgstr ""
+
+#: blocks/statistics/index.js:78
+msgid "Building"
+msgstr ""
+
+#: blocks/inquiry/index.js:11
+msgid "Button label"
+msgstr ""
+
+#: blocks/call-to-action/index.js:22
+msgid "Call-to-action heading"
+msgstr ""
+
+#: blocks/insights/index.js:14
+msgid "Category ID (optional)"
+msgstr ""
+
+#: templates/contact.php:29
+msgid "Chat on WhatsApp"
+msgstr ""
+
+#: blocks/gallery/index.js:38
+msgid "Choose / edit images"
+msgstr ""
+
+#: blocks/gallery/index.js:30
+msgid "Choose any number of images per column, up to 40. Keep the middle column shorter than the side columns for the sticky scroll effect."
+msgstr ""
+
+#: blocks/about/index.js:19 blocks/hero/index.js:43
+msgid "Choose image"
+msgstr ""
+
+#: blocks/master-plan/index.js:11
+msgid "Choose plan image"
+msgstr ""
+
+#: blocks/gallery/index.js:55
+msgid "Clear column"
+msgstr ""
+
+#: template-parts/global/archive-filters.php:46
+msgid "Clear filters"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:81 inc/admin/meta-boxes.php:148
+msgid "Comma-separated image attachment IDs, maximum 40."
+msgstr ""
+
+#: blocks/amenities/index.js:11
+msgid "Comma-separated. Leave empty to use the current post."
+msgstr ""
+
+#: templates/contact.php:21
+msgid "Contact"
+msgstr ""
+
+#: inc/admin/settings.php:23 templates/contact.php:24
+msgid "Contact details"
+msgstr ""
+
+#: templates/contact.php:36
+msgid "Contact details have not been configured yet."
+msgstr ""
+
+#: inc/admin/settings.php:14
+msgid "Contact email"
+msgstr ""
+
+#: inc/admin/settings.php:15
+msgid "Contact phone"
+msgstr ""
+
+#: inc/helpers.php:89
+msgid "Contact the Archdome team to discuss availability and your requirements."
+msgstr ""
+
+#: inc/helpers.php:92
+msgid "Contact the Archdome team to discuss the development and available properties."
+msgstr ""
+
+#: inc/admin/meta-boxes.php:135
+msgid "Currency code"
+msgstr ""
+
+#: inc/post-types/register.php:20 inc/post-types/register.php:22
+msgid "Development"
+msgstr ""
+
+#: inc/post-types/register.php:36
+msgid "Development archives"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:17
+msgid "Development details"
+msgstr ""
+
+#: blocks/property-grid/index.js:13
+msgid "Development ID"
+msgstr ""
+
+#: inc/post-types/register.php:32
+msgid "Development image"
+msgstr ""
+
+#: archive-development.php:11 inc/taxonomies/register.php:115
+msgid "Development status"
+msgstr ""
+
+#: blocks/development-grid/index.js:16
+msgid "Development status term ID"
+msgstr ""
+
+#: inc/taxonomies/register.php:116
+msgid "Development statuses"
+msgstr ""
+
+#: archive-development.php:10 inc/taxonomies/register.php:108
+msgid "Development type"
+msgstr ""
+
+#: blocks/development-grid/index.js:15
+msgid "Development type term ID"
+msgstr ""
+
+#: inc/taxonomies/register.php:109
+msgid "Development types"
+msgstr ""
+
+#: inc/post-types/register.php:19 inc/post-types/register.php:21
+msgid "Developments"
+msgstr ""
+
+#: single-development.php:52
+msgid "Download brochure"
+msgstr ""
+
+#: inc/taxonomies/register.php:34
+msgid "Edit %s"
+msgstr ""
+
+#: inc/post-types/register.php:26
+msgid "Edit development"
+msgstr ""
+
+#: inc/post-types/register.php:72
+msgid "Edit property"
+msgstr ""
+
+#: templates/contact.php:26
+msgid "Email"
+msgstr ""
+
+#: inc/helpers.php:108
+msgid "Enquire now"
+msgstr ""
+
+#: templates/contact.php:25
+msgid "Enquiry about:"
+msgstr ""
+
+#: 404.php:8
+msgid "Error 404"
+msgstr ""
+
+#: templates/locations.php:9
+msgid "Explore"
+msgstr ""
+
+#: blocks/statistics/index.js:44
+msgid "Eyebrow (optional)"
+msgstr ""
+
+#: inc/admin/settings.php:18
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:96
+msgid "Feature this development"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:159
+msgid "Feature this property"
+msgstr ""
+
+#: archive-property.php:7
+msgid "Find your property"
+msgstr ""
+
+#: blocks/gallery/index.js:26
+msgid "First column"
+msgstr ""
+
+#: single-property.php:46
+msgid "Floor plan"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:149
+msgid "Floor plan attachment ID"
+msgstr ""
+
+#: templates/contact.php:31
+msgid "Follow ArchDome"
+msgstr ""
+
+#: footer.php:18 inc/setup.php:51
+msgid "Footer navigation"
+msgstr ""
+
+#: single-development.php:33 single-property.php:44
+msgid "Gallery"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:81 inc/admin/meta-boxes.php:148
+msgid "Gallery attachment IDs"
+msgstr ""
+
+#: blocks/gallery/index.js:28
+msgid "Gallery heading"
+msgstr ""
+
+#: blocks/amenities/index.js:10 blocks/development-grid/index.js:12 blocks/featured-developments/index.js:12 blocks/featured-properties/index.js:11 blocks/locations/index.js:10 blocks/map-location/index.js:10 blocks/property-grid/index.js:11 blocks/property-search/index.js:11
+msgid "Heading"
+msgstr ""
+
+#: blocks/hero/index.js:22
+msgid "Heading 1"
+msgstr ""
+
+#: blocks/hero/index.js:23 blocks/statistics/index.js:38
+msgid "Heading 2"
+msgstr ""
+
+#: blocks/statistics/index.js:39
+msgid "Heading 3"
+msgstr ""
+
+#: blocks/hero/index.js:19 blocks/statistics/index.js:35
+msgid "Heading level"
+msgstr ""
+
+#: blocks/hero/index.js:36
+msgid "Hero heading"
+msgstr ""
+
+#: blocks/hero/index.js:17
+msgid "Hero settings"
+msgstr ""
+
+#: blocks/statistics/index.js:79
+msgid "Home"
+msgstr ""
+
+#: blocks/statistics/index.js:74
+msgid "Icon"
+msgstr ""
+
+#: template-parts/cards/development.php:17 template-parts/cards/property.php:22
+msgid "Image unavailable"
+msgstr ""
+
+#: blocks/gallery/index.js:34
+msgid "Images: "
+msgstr ""
+
+#: inc/admin/meta-boxes.php:86
+msgid "Inquiry call-to-action label"
+msgstr ""
+
+#: blocks/inquiry/index.js:9
+msgid "Inquiry heading"
+msgstr ""
+
+#: home.php:7
+msgid "Insights"
+msgstr ""
+
+#: inc/admin/settings.php:19
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/helpers.php:91
+msgid "Interested in this development?"
+msgstr ""
+
+#: inc/helpers.php:88
+msgid "Interested in this property?"
+msgstr ""
+
+#: blocks/statistics/index.js:81
+msgid "Key"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:89 single-development.php:31
+msgid "Key statistics"
+msgstr ""
+
+#: blocks/statistics/index.js:92
+msgid "Label"
+msgstr ""
+
+#: inc/localization.php:101
+msgid "Languages"
+msgstr ""
+
+#: blocks/gallery/index.js:26
+msgid "Last column"
+msgstr ""
+
+#: index.php:10
+msgid "Latest updates"
+msgstr ""
+
+#: blocks/map-location/render.php:18 inc/admin/meta-boxes.php:84
+msgid "Latitude"
+msgstr ""
+
+#: blocks/call-to-action/index.js:14
+msgid "Light"
+msgstr ""
+
+#: blocks/about/index.js:12
+msgid "Link label"
+msgstr ""
+
+#: blocks/about/index.js:13
+msgid "Link URL"
+msgstr ""
+
+#: inc/admin/settings.php:20
+msgid "LinkedIn URL"
+msgstr ""
+
+#: archive-development.php:9 archive-property.php:9 blocks/property-search/render.php:21 blocks/statistics/index.js:80 inc/helpers.php:97 inc/taxonomies/register.php:80
+msgid "Location"
+msgstr ""
+
+#: blocks/map-location/index.js:9
+msgid "Location settings"
+msgstr ""
+
+#: blocks/development-grid/index.js:14 blocks/property-grid/index.js:13
+msgid "Location term ID"
+msgstr ""
+
+#: inc/taxonomies/register.php:81
+msgid "Locations"
+msgstr ""
+
+#: blocks/map-location/render.php:18 inc/admin/meta-boxes.php:85
+msgid "Longitude"
+msgstr ""
+
+#: single-development.php:50
+msgid "Master plan"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:82
+msgid "Master plan attachment ID"
+msgstr ""
+
+#: header.php:28
+msgid "Menu"
+msgstr ""
+
+#: blocks/gallery/index.js:26
+msgid "Middle column (sticky)"
+msgstr ""
+
+#: blocks/property-search/render.php:31 template-parts/global/archive-filters.php:38
+msgid "Minimum bedrooms"
+msgstr ""
+
+#: blocks/gallery/index.js:50
+msgid "Move image down"
+msgstr ""
+
+#: blocks/gallery/index.js:49
+msgid "Move image up"
+msgstr ""
+
+#: blocks/testimonials/index.js:15
+msgid "Name"
+msgstr ""
+
+#: inc/taxonomies/register.php:49
+msgid "New %s name"
+msgstr ""
+
+#: inc/post-types/register.php:25
+msgid "New development"
+msgstr ""
+
+#: inc/post-types/register.php:71
+msgid "New property"
+msgstr ""
+
+#: template-parts/global/archive-filters.php:41
+msgid "Newest"
+msgstr ""
+
+#: home.php:7
+msgid "News and perspectives"
+msgstr ""
+
+#: blocks/amenities/render.php:16
+msgid "No amenities are available."
+msgstr ""
+
+#: blocks/featured-developments/render.php:42
+msgid "No developments are available yet."
+msgstr ""
+
+#: inc/post-types/register.php:31
+msgid "No developments found in Trash."
+msgstr ""
+
+#: inc/post-types/register.php:30
+msgid "No developments found."
+msgstr ""
+
+#: archive-development.php:18 blocks/development-grid/render.php:48
+msgid "No developments match the selected criteria."
+msgstr ""
+
+#: blocks/statistics/index.js:77
+msgid "No icon"
+msgstr ""
+
+#: blocks/insights/render.php:50
+msgid "No insights are available yet."
+msgstr ""
+
+#: blocks/locations/render.php:15
+msgid "No locations are available yet."
+msgstr ""
+
+#: taxonomy.php:16
+msgid "No matching content is available yet."
+msgstr ""
+
+#: blocks/featured-properties/render.php:23
+msgid "No properties are available yet."
+msgstr ""
+
+#: inc/post-types/register.php:77
+msgid "No properties found in Trash."
+msgstr ""
+
+#: inc/post-types/register.php:76
+msgid "No properties found."
+msgstr ""
+
+#: archive-property.php:18 blocks/property-grid/render.php:32
+msgid "No properties match the selected criteria."
+msgstr ""
+
+#: inc/admin/meta-boxes.php:125
+msgid "No related development"
+msgstr ""
+
+#: inc/taxonomies/register.php:53
+msgid "No terms found."
+msgstr ""
+
+#: template-parts/content/content-none.php:12
+msgid "Nothing was found."
+msgstr ""
+
+#: blocks/development-grid/index.js:13 blocks/featured-developments/index.js:13
+msgid "Number of developments"
+msgstr ""
+
+#: blocks/insights/index.js:13
+msgid "Number of insights"
+msgstr ""
+
+#: blocks/locations/index.js:11
+msgid "Number of locations"
+msgstr ""
+
+#: blocks/featured-properties/index.js:12 blocks/property-grid/index.js:12
+msgid "Number of properties"
+msgstr ""
+
+#: templates/contact.php:30
+msgid "Office"
+msgstr ""
+
+#: inc/admin/settings.php:16
+msgid "Office address"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:91
+msgid "One statistic per line using “Label | Value”, maximum 12."
+msgstr ""
+
+#: single-property.php:46
+msgid "Open the full-size floor plan"
+msgstr ""
+
+#: single-development.php:50
+msgid "Open the full-size master plan"
+msgstr ""
+
+#: blocks/master-plan/render.php:20
+msgid "Open the full-size plan"
+msgstr ""
+
+#: blocks/about/index.js:16 blocks/hero/index.js:35
+msgid "Optional eyebrow"
+msgstr ""
+
+#: archive-development.php:7
+msgid "Our portfolio"
+msgstr ""
+
+#: single-development.php:29
+msgid "Overview"
+msgstr ""
+
+#: single-property.php:28
+msgid "Part of"
+msgstr ""
+
+#: templates/contact.php:28
+msgid "Phone"
+msgstr ""
+
+#: blocks/master-plan/index.js:9
+msgid "Plan heading"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:134
+msgid "Price"
+msgstr ""
+
+#: inc/helpers.php:45
+msgid "Price on request"
+msgstr ""
+
+#: template-parts/global/archive-filters.php:43
+msgid "Price: high to low"
+msgstr ""
+
+#: template-parts/global/archive-filters.php:42
+msgid "Price: low to high"
+msgstr ""
+
+#: blocks/call-to-action/index.js:16 blocks/hero/index.js:27
+msgid "Primary action label"
+msgstr ""
+
+#: blocks/call-to-action/index.js:17 blocks/hero/index.js:28
+msgid "Primary action URL"
+msgstr ""
+
+#: header.php:32 inc/setup.php:50
+msgid "Primary navigation"
+msgstr ""
+
+#: inc/post-types/register.php:65 inc/post-types/register.php:67
+msgid "Properties"
+msgstr ""
+
+#: inc/post-types/register.php:66 inc/post-types/register.php:68
+msgid "Property"
+msgstr ""
+
+#: inc/post-types/register.php:82
+msgid "Property archives"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:26 template-parts/cards/property.php:29
+msgid "Property details"
+msgstr ""
+
+#: inc/post-types/register.php:78
+msgid "Property image"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:150
+msgid "Property reference"
+msgstr ""
+
+#: archive-property.php:11 blocks/property-search/render.php:21 inc/taxonomies/register.php:101
+msgid "Property status"
+msgstr ""
+
+#: blocks/property-grid/index.js:13
+msgid "Property status term ID"
+msgstr ""
+
+#: inc/taxonomies/register.php:102
+msgid "Property statuses"
+msgstr ""
+
+#: archive-property.php:10 blocks/property-search/render.php:21 inc/taxonomies/register.php:87
+msgid "Property type"
+msgstr ""
+
+#: blocks/property-grid/index.js:13
+msgid "Property type term ID"
+msgstr ""
+
+#: inc/taxonomies/register.php:88
+msgid "Property types"
+msgstr ""
+
+#: blocks/development-grid/index.js:11 blocks/insights/index.js:11 blocks/property-grid/index.js:10
+msgid "Query settings"
+msgstr ""
+
+#: blocks/testimonials/index.js:14
+msgid "Quotation"
+msgstr ""
+
+#: single-property.php:40
+msgid "Reference"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:123
+msgid "Related development"
+msgstr ""
+
+#: single-property.php:54
+msgid "Related properties"
+msgstr ""
+
+#: inc/post-types/register.php:34
+msgid "Remove development image"
+msgstr ""
+
+#: blocks/about/index.js:20 blocks/gallery/index.js:51 blocks/hero/index.js:46
+msgid "Remove image"
+msgstr ""
+
+#: inc/post-types/register.php:80
+msgid "Remove property image"
+msgstr ""
+
+#: blocks/statistics/index.js:100
+msgid "Remove statistic"
+msgstr ""
+
+#: blocks/testimonials/index.js:17
+msgid "Remove testimonial"
+msgstr ""
+
+#: blocks/about/index.js:19 blocks/hero/index.js:43
+msgid "Replace image"
+msgstr ""
+
+#: search.php:6
+msgid "Results for “%s”"
+msgstr ""
+
+#: 404.php:14
+msgid "Return to homepage"
+msgstr ""
+
+#: blocks/testimonials/index.js:16
+msgid "Role or context"
+msgstr ""
+
+#: search.php:6
+msgid "Search"
+msgstr ""
+
+#: inc/taxonomies/register.php:24
+msgid "Search %s"
+msgstr ""
+
+#: inc/post-types/register.php:29
+msgid "Search developments"
+msgstr ""
+
+#: blocks/property-search/render.php:33 inc/post-types/register.php:75
+msgid "Search properties"
+msgstr ""
+
+#: blocks/property-search/index.js:10
+msgid "Search settings"
+msgstr ""
+
+#: blocks/call-to-action/index.js:18 blocks/hero/index.js:29
+msgid "Secondary action label"
+msgstr ""
+
+#: blocks/call-to-action/index.js:19 blocks/hero/index.js:30
+msgid "Secondary action URL"
+msgstr ""
+
+#: blocks/insights/index.js:12
+msgid "Section heading"
+msgstr ""
+
+#: blocks/featured-developments/index.js:11 blocks/featured-properties/index.js:10 blocks/locations/index.js:9
+msgid "Section settings"
+msgstr ""
+
+#: inc/post-types/register.php:33
+msgid "Set development image"
+msgstr ""
+
+#: inc/post-types/register.php:79
+msgid "Set property image"
+msgstr ""
+
+#: blocks/insights/index.js:15
+msgid "Show excerpts"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:155
+msgid "Show price on request"
+msgstr ""
+
+#: header.php:18
+msgid "Skip to content"
+msgstr ""
+
+#: template-parts/global/archive-filters.php:40
+msgid "Sort by"
+msgstr ""
+
+#: single-property.php:36
+msgid "Specifications"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:144
+msgid "Square feet"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:143
+msgid "Square metres"
+msgstr ""
+
+#: blocks/statistics/index.js:62
+msgid "Statistics heading"
+msgstr ""
+
+#: blocks/statistics/index.js:33
+msgid "Statistics settings"
+msgstr ""
+
+#: blocks/call-to-action/index.js:23 blocks/hero/index.js:37 blocks/inquiry/index.js:10
+msgid "Supporting text"
+msgstr ""
+
+#: blocks/statistics/index.js:49
+msgid "Supporting text (optional)"
+msgstr ""
+
+#: blocks/testimonials/index.js:12
+msgid "Testimonials heading"
+msgstr ""
+
+#: 404.php:10
+msgid "The address may have changed, or the page may no longer be available. Search the site or return to the homepage."
+msgstr ""
+
+#: blocks/master-plan/index.js:10
+msgid "The current record plan will be used when available."
+msgstr ""
+
+#: 404.php:9
+msgid "This page could not be found."
+msgstr ""
+
+#: inc/admin/meta-boxes.php:135
+msgid "Three-letter ISO code, for example EGP."
+msgstr ""
+
+#: blocks/call-to-action/index.js:12
+msgid "Tone"
+msgstr ""
+
+#: blocks/gallery/index.js:29
+msgid "Total images: "
+msgstr ""
+
+#: template-parts/content/content-none.php:13
+msgid "Try a different search or return to the homepage."
+msgstr ""
+
+#: inc/admin/meta-boxes.php:128
+msgid "Untitled development #%d"
+msgstr ""
+
+#: inc/taxonomies/register.php:39
+msgid "Update %s"
+msgstr ""
+
+#: inc/post-types/register.php:35
+msgid "Use as development image"
+msgstr ""
+
+#: inc/post-types/register.php:81
+msgid "Use as property image"
+msgstr ""
+
+#: blocks/statistics/index.js:87
+msgid "Value"
+msgstr ""
+
+#: inc/post-types/register.php:27
+msgid "View development"
+msgstr ""
+
+#: inc/post-types/register.php:73
+msgid "View property"
+msgstr ""
+
+#: inc/admin/settings.php:17
+msgid "WhatsApp URL"
+msgstr ""

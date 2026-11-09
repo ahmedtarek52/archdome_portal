@@ -1,0 +1,11 @@
+.archdome-hero-editor {
+  padding: 2rem;
+  border-inline-start: 3px solid #4b2b63;
+  background: #f3f1ee;
+}
+
+.archdome-hero-editor h1,
+.archdome-hero-editor h2 {
+  color: #352044;
+  font-size: clamp(2rem, 5vw, 4rem);
+}
