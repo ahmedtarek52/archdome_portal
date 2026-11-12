@@ -18,7 +18,7 @@ while (have_posts()) {
     }
     ?>
     <article id="post-<?php the_ID(); ?>" <?php post_class('site-container content-layout contact-page'); ?>>
-        <header class="page-header"><p class="eyebrow"><?php esc_html_e('Contact', 'archdome-portal'); ?></p><h1><?php the_title(); ?></h1></header>
+        <h1 class="screen-reader-text"><?php the_title(); ?></h1>
         <div class="contact-page__grid">
             <div class="entry__content"><?php the_content(); ?></div>
             <aside class="contact-details" aria-label="<?php esc_attr_e('Contact details', 'archdome-portal'); ?>">

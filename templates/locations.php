@@ -6,7 +6,7 @@ get_header();
 while (have_posts()) {
     the_post(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('content-layout'); ?>>
-    <header class="page-header site-container"><p class="eyebrow"><?php esc_html_e('Explore', 'archdome-portal'); ?></p><h1><?php the_title(); ?></h1><?php if (has_excerpt()) {
+    <header class="page-header site-container"><h1 class="screen-reader-text"><?php the_title(); ?></h1><?php if (has_excerpt()) {
         the_excerpt();
     } ?></header>
     <div class="entry__content"><?php the_content(); ?></div>

@@ -25,7 +25,7 @@ if (! defined('ABSPATH')) {
 
 		<?php if (has_nav_menu('primary')) { ?>
 			<button class="site-menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-menu-toggle hidden>
-				<span class="site-menu-toggle__label"><?php esc_html_e('Menu', 'archdome-portal'); ?></span>
+				<span class="site-menu-toggle__label screen-reader-text"><?php esc_html_e('Menu', 'archdome-portal'); ?></span>
 				<span class="site-menu-toggle__icon" aria-hidden="true"></span>
 			</button>
 
@@ -42,11 +42,12 @@ if (! defined('ABSPATH')) {
                         ],
                     );
 		    ?>
+					<?php archdome_language_switcher(); ?>
 				</div>
 			</nav>
+		<?php } else { ?>
+			<?php archdome_language_switcher(); ?>
 		<?php } ?>
-
-		<?php archdome_language_switcher(); ?>
 	</div>
 </header>
 

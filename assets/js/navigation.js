@@ -27,6 +27,19 @@
     header.classList.toggle('is-menu-open', !isOpen);
   });
 
+  panel.addEventListener('click', (event) => {
+    if (event.target.closest('a')) {
+      closeMenu();
+    }
+  });
+
+  const desktopNavigation = window.matchMedia('(min-width: 48rem)');
+  desktopNavigation.addEventListener('change', (event) => {
+    if (event.matches) {
+      closeMenu();
+    }
+  });
+
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' && header.classList.contains('is-menu-open')) {
       closeMenu(true);

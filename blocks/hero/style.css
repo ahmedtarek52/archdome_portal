@@ -1,8 +1,9 @@
 .wp-block-archdome-hero.archdome-hero {
   position: relative;
   display: grid;
-  min-block-size: clamp(34rem, 78vh, 58rem);
-  min-block-size: clamp(34rem, 78svh, 58rem);
+  grid-template-rows: minmax(0, 1fr);
+  block-size: 100vh;
+  block-size: 100dvh;
   align-items: end;
   overflow: hidden;
   background: #352044;

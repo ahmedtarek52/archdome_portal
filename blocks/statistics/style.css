@@ -113,10 +113,6 @@
   font-variant-numeric: lining-nums tabular-nums;
 }
 
-@media (max-width: 30rem) {
-  .archdome-statistics__list { grid-template-columns: minmax(0, 1fr); }
-}
-
 @media (min-width: 64rem) {
   .archdome-statistics__inner { grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.4fr); }
   .archdome-statistics__inner--only-stats { display: block; }

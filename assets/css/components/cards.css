@@ -2,6 +2,10 @@
   padding-block: clamp(3rem, 8vw, 7rem);
 }
 
+.archdome-featured-properties {
+  background: var(--color-surface, #fff);
+}
+
 .archdome-collection__header {
   display: flex;
   align-items: end;
