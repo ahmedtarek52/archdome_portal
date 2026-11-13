@@ -494,8 +494,13 @@ html[dir="rtl"] .site-nav__list a::after {
 }
 
 @media (max-width: 47.99rem) {
-  body.single .site-main {
+  .site-main {
     padding-block-start: calc(5.25rem + env(safe-area-inset-top));
+  }
+
+  body.home .site-main,
+  body.front-page .site-main {
+    padding-block-start: 0;
   }
 }
 
@@ -784,6 +789,19 @@ html[dir="rtl"] .detail-hero__overlay { background: linear-gradient(270deg, rgb(
 
   .site-footer__copyright {
     grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: 64rem) {
+  .site-header.is-nav-enhanced .site-nav__panel,
+  .site-nav__panel {
+    position: relative;
+    justify-content: center;
+  }
+
+  .site-nav__panel .language-switcher {
+    position: absolute;
+    inset-inline-end: 0;
   }
 }
 
